@@ -1,0 +1,12 @@
+$sudo passwd root
+$cd usr
+$ls
+$cd share/lightdm/lightdm.conf.d
+$sudo nano 50-ubuntu //it will open a text editor, edit this file//
+
+//
+	user-session=ubuntu
+	greeter-show-manual-login=true
+//
+
+//save, exit and restart the computer//
