@@ -1,0 +1,11 @@
+Package Management Systems: A Brief Overview
+Most package systems are built around collections of package files. A package file is usually an archive which contains compiled binaries and other resources making up the software, along with installation scripts. Packages also contain valuable metadata, including their dependencies, a list of other packages required to install and run them.
+
+While their functionality and benefits are broadly similar, packaging formats and tools vary by platform:
+
+Operating System	Format		Tool(s)
+Debian			.deb		apt, apt-cache, apt-get, dpkg
+Ubuntu			.deb		apt, apt-cache, apt-get, dpkg
+CentOS			.rpm		yum
+Fedora			.rpm		dnf
+FreeBSD			Ports, .txz	make, pkg
